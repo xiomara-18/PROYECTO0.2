@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+
+body {
+  background-image: url(/asset/media/inicio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.inicio {
+  border: 4px solid hsl(295, 96%, 28%);
+  width: 600px;
+  padding-bottom: 20px;
+  margin: 160px auto;
+  border-radius: 27px;
+  background-color: rgba(188, 171, 192, 0.966);
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-style: 42px;
+}
+
+.pregunta {
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+}
+
+.subtitulo {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.titulo {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(32, 8, 8);
+  font-size: 45px;
+}
+
+.input {
+  border: 1px solid #b644b6;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 10px;
+}
+
+.button {
+  display: block;
+  border: 2px solid #53025e;
+  border-radius: 0px;
+  color: rgba(246, 245, 248, 0.959);
+  background-color: #aa25aab0;
+  width: 150px;
+  margin: 35px auto 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Lobster Two", sans-serif;
+}
+
+/*
+.boton {
+  position: relative;
+  height: 90px;
+  width: 90px ;
+  background: #862d65 ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0 0 0 10px;
+  transform: rotate(-45deg);
+
+
+}
+.boton:before {
+  position: absolute;
+  content:"";
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.boton:after {
+  position: absolute;
+  content:"";
+  right: -50%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.boton:hover {
+  background-color: #1156c5;
+  color: white;
+  border: 5px solid #001e3d;
+}
+
+.boton:focus {
+  outline: none;
+  background-color: #c8325f;
+  color: #140505;
+  border: 5px solid #64071e;
+
+}
+*/
+.boton {
+  text-decoration: none;
+  color: #38065a;
+  font-weight: bold;
+}
+
+.boton div {
+  background-image: url(/asset/media/corazon.png);
+  background-size: cover;
+  background-position: center;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.boton div p {
+  margin-top: -2px;
+}
+
+.boton div:hover {
+  transform: scale(1.2);
+}
+
+.titulo {
+  color: #360752;
+  font-family: "Dancing Script";
+}
