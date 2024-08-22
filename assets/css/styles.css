@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 body {
-  background-image: url(/asset/media/fondo2.jpg);
+  background-image: url("../media/fondo2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: no-repeat;

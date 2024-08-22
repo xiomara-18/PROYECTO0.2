@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 
 body {
-  background-image: url(/asset/media/inicio.jpg);
+  background-image: url("../media/inicio.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,7 +119,7 @@ body {
 }
 
 .boton div {
-  background-image: url(/asset/media/corazon.png);
+  background-image: url("../media/corazon.png");
   background-size: cover;
   background-position: center;
   width: 160px;
