@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+
+body {
+  position: relative;
+  margin: 0;
+}
+.sect {
+  width: 100%;
+  min-height: 500px;
+}
+
+.inicio {
+  border: 4px solid hsl(352, 94%, 49%);
+  width: 540px;
+  padding-bottom: 30px;
+  margin: 150px auto;
+  border-radius: 28px;
+  background-color: rgb(255, 219, 244, 0.966);
+  text-align: center;
+  box-shadow: 0 0 30px rgb(212, 126, 126);
+}
+.h1 {
+  color: rgb(238, 135, 152);
+  text-shadow: 0 0 30px #fff;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+
+.pregunta {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  color: rgb(187, 7, 7);
+}
+
+.subtitulo {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+}
+
+/*
+.boton {
+  position: relative;
+  height: 90px;
+  width: 90px ;
+  background: #862d65 ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0 0 0 10px;
+  transform: rotate(-45deg);
+
+
+}
+.boton:before {
+  position: absolute;
+  content:"";
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.boton:after {
+  position: absolute;
+  content:"";
+  right: -50%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.boton:hover {
+  background-color: #1156c5;
+  color: white;
+  border: 5px solid #001e3d;
+}
+
+.boton:focus {
+  outline: none;
+  background-color: #c8325f;
+  color: #140505;
+  border: 5px solid #64071e;
+
+}
+*/
+.boton {
+  text-decoration: none;
+  color: rgb(163, 24, 47);
+  text-shadow: 0 0 30px #570303;
+  font-weight: bold;
+}
+
+.boton div {
+  background-image: url(./../media/corazon.png);
+  background-size: cover;
+  background-position: center;
+  width: 140px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+.boton div p {
+  margin-top: -2px;
+}
+
+.boton div:hover {
+  transform: scale(1.2);
+}
+
+.titulo {
+  color: rgb(163, 24, 47);
+  text-shadow: 0 0 30px #b2108f;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+}

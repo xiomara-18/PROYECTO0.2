@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+
+body {
+  background-image: url(./../media/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.titulo1 {
+  color: rgb(163, 24, 47);
+  text-shadow: 0 0 30px #f91a01;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.nombre {
+  text-align: center;
+  font-family: "Lobster two , sans-sarif";
+}
+
+.div-botones {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 15%;
+  height: 50%;
+  left: 42%;
+  top: 30%;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-encriptar {
+  background-color: rgb(188, 21, 21);
+  font-size: 20px;
+  color: #f2eded;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  font-weight: 40x;
+  border: 4px solid rgb(97, 10, 10);
+  font-family: "Lobster Two", sans-serif;
+  box-shadow: 0 0 30px rgb(155, 3, 3);
+}
+
+.button-desencriptar {
+  background-color: rgb(188, 21, 21);
+  font-size: 20px;
+  color: #f2eded;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  font-weight: 40x;
+  border: 4px solid rgb(97, 10, 10);
+  font-family: "Lobster Two", sans-serif;
+  box-shadow: 0 0 30px rgb(155, 3, 3);
+}
+
+.button-salir {
+  background-color: rgb(188, 21, 21);
+  font-size: 20px;
+  color: #f2eded;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  font-weight: 40x;
+  border: 4px solid rgb(97, 10, 10);
+  font-family: "Lobster Two", sans-serif;
+  box-shadow: 0 0 30px rgb(155, 3, 3);
+}
+
+.button {
+  display: block;
+  background-color: rgb(188, 21, 21);
+  font-size: 20px;
+  color: #f2eded;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  margin: 0 auto 450px;
+  border-radius: 30px;
+  font-weight: 40x;
+  border: 4px solid rgb(97, 10, 10);
+  font-family: "Lobster Two", sans-serif;
+  box-shadow: 0 0 30px rgb(155, 3, 3);
+}
+
+.texta-mensaje1 {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  border: 2px solid #c9081cf6;
+  border-radius: 8px;
+  font-family: "Lobster Two", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: rgb(255, 219, 244, 0.966);
+}
+
+.div-mensaje1 {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  left: 15%;
+  top: 30%;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.texta-mensaje2 {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  border: 2px solid #c9081cf6;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: rgb(255, 219, 244, 0.966);
+}
+
+.div-mensaje2 {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  left: 60%;
+  top: 30%;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.textarea {
+  display: block;
+}
